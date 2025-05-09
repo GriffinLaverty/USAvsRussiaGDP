@@ -1,0 +1,254 @@
+[
+  {
+    "Year":1960.0,
+    "GDP per Capita":1365.0
+  },
+  {
+    "Year":1961.0,
+    "GDP per Capita":1422.0
+  },
+  {
+    "Year":1962.0,
+    "GDP per Capita":1642.0
+  },
+  {
+    "Year":1963.0,
+    "GDP per Capita":1781.0
+  },
+  {
+    "Year":1964.0,
+    "GDP per Capita":1841.0
+  },
+  {
+    "Year":1965.0,
+    "GDP per Capita":2045.0
+  },
+  {
+    "Year":1966.0,
+    "GDP per Capita":2324.0
+  },
+  {
+    "Year":1967.0,
+    "GDP per Capita":2935.0
+  },
+  {
+    "Year":1968.0,
+    "GDP per Capita":3288.0
+  },
+  {
+    "Year":1969.0,
+    "GDP per Capita":3543.0
+  },
+  {
+    "Year":1970.0,
+    "GDP per Capita":3724.0
+  },
+  {
+    "Year":1971.0,
+    "GDP per Capita":3891.0
+  },
+  {
+    "Year":1972.0,
+    "GDP per Capita":4040.0
+  },
+  {
+    "Year":1973.0,
+    "GDP per Capita":4596.0
+  },
+  {
+    "Year":1974.0,
+    "GDP per Capita":4924.0
+  },
+  {
+    "Year":1975.0,
+    "GDP per Capita":5368.0
+  },
+  {
+    "Year":1976.0,
+    "GDP per Capita":5921.0
+  },
+  {
+    "Year":1977.0,
+    "GDP per Capita":6577.0
+  },
+  {
+    "Year":1978.0,
+    "GDP per Capita":6849.0
+  },
+  {
+    "Year":1979.0,
+    "GDP per Capita":7121.0
+  },
+  {
+    "Year":1980.0,
+    "GDP per Capita":7568.0
+  },
+  {
+    "Year":1981.0,
+    "GDP per Capita":7752.0
+  },
+  {
+    "Year":1982.0,
+    "GDP per Capita":7943.0
+  },
+  {
+    "Year":1983.0,
+    "GDP per Capita":8166.0
+  },
+  {
+    "Year":1984.0,
+    "GDP per Capita":8538.0
+  },
+  {
+    "Year":1985.0,
+    "GDP per Capita":8896.0
+  },
+  {
+    "Year":1986.0,
+    "GDP per Capita":9012.0
+  },
+  {
+    "Year":1987.0,
+    "GDP per Capita":9203.0
+  },
+  {
+    "Year":1988.0,
+    "GDP per Capita":9379.0
+  },
+  {
+    "Year":1989.0,
+    "GDP per Capita":9457.0
+  },
+  {
+    "Year":1990.0,
+    "GDP per Capita":9526.0
+  },
+  {
+    "Year":1991.0,
+    "GDP per Capita":9931.0
+  },
+  {
+    "Year":1992.0,
+    "GDP per Capita":3490.45239
+  },
+  {
+    "Year":1993.0,
+    "GDP per Capita":3098.80273
+  },
+  {
+    "Year":1994.0,
+    "GDP per Capita":2930.67017
+  },
+  {
+    "Year":1995.0,
+    "GDP per Capita":2662.104
+  },
+  {
+    "Year":1996.0,
+    "GDP per Capita":2665.77979
+  },
+  {
+    "Year":1997.0,
+    "GDP per Capita":2643.9292
+  },
+  {
+    "Year":1998.0,
+    "GDP per Capita":2737.57202
+  },
+  {
+    "Year":1999.0,
+    "GDP per Capita":1834.86182
+  },
+  {
+    "Year":2000.0,
+    "GDP per Capita":1330.7572
+  },
+  {
+    "Year":2001.0,
+    "GDP per Capita":1771.59412
+  },
+  {
+    "Year":2002.0,
+    "GDP per Capita":2100.35254
+  },
+  {
+    "Year":2003.0,
+    "GDP per Capita":2377.52954
+  },
+  {
+    "Year":2004.0,
+    "GDP per Capita":2975.12305
+  },
+  {
+    "Year":2005.0,
+    "GDP per Capita":4102.36475
+  },
+  {
+    "Year":2006.0,
+    "GDP per Capita":5323.45508
+  },
+  {
+    "Year":2007.0,
+    "GDP per Capita":6920.19971
+  },
+  {
+    "Year":2008.0,
+    "GDP per Capita":9101.23926
+  },
+  {
+    "Year":2009.0,
+    "GDP per Capita":11635.2842
+  },
+  {
+    "Year":2010.0,
+    "GDP per Capita":8562.82422
+  },
+  {
+    "Year":2011.0,
+    "GDP per Capita":10674.9902
+  },
+  {
+    "Year":2012.0,
+    "GDP per Capita":14305.332
+  },
+  {
+    "Year":2013.0,
+    "GDP per Capita":15401.8516
+  },
+  {
+    "Year":2014.0,
+    "GDP per Capita":15941.4482
+  },
+  {
+    "Year":2015.0,
+    "GDP per Capita":14055.4727
+  },
+  {
+    "Year":2016.0,
+    "GDP per Capita":9277.71387
+  },
+  {
+    "Year":2017.0,
+    "GDP per Capita":8663.1582
+  },
+  {
+    "Year":2018.0,
+    "GDP per Capita":10658.9131
+  },
+  {
+    "Year":2019.0,
+    "GDP per Capita":11211.8877
+  },
+  {
+    "Year":2020.0,
+    "GDP per Capita":11447.7012
+  },
+  {
+    "Year":2021.0,
+    "GDP per Capita":10108.3271
+  },
+  {
+    "Year":2022.0,
+    "GDP per Capita":12521.5225
+  }
+]

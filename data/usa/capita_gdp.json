@@ -1,0 +1,254 @@
+[
+  {
+    "Year":1960.0,
+    "GDP per Capita":2999.864872
+  },
+  {
+    "Year":1961.0,
+    "GDP per Capita":3059.160821
+  },
+  {
+    "Year":1962.0,
+    "GDP per Capita":3236.013112
+  },
+  {
+    "Year":1963.0,
+    "GDP per Capita":3366.36979
+  },
+  {
+    "Year":1964.0,
+    "GDP per Capita":3565.31443
+  },
+  {
+    "Year":1965.0,
+    "GDP per Capita":3818.288251
+  },
+  {
+    "Year":1966.0,
+    "GDP per Capita":4136.308296
+  },
+  {
+    "Year":1967.0,
+    "GDP per Capita":4325.959351
+  },
+  {
+    "Year":1968.0,
+    "GDP per Capita":4684.588403
+  },
+  {
+    "Year":1969.0,
+    "GDP per Capita":5019.998186
+  },
+  {
+    "Year":1970.0,
+    "GDP per Capita":5234.296666
+  },
+  {
+    "Year":1971.0,
+    "GDP per Capita":5609.3826
+  },
+  {
+    "Year":1972.0,
+    "GDP per Capita":6094.01799
+  },
+  {
+    "Year":1973.0,
+    "GDP per Capita":6726.358956
+  },
+  {
+    "Year":1974.0,
+    "GDP per Capita":7225.69136
+  },
+  {
+    "Year":1975.0,
+    "GDP per Capita":7801.456664
+  },
+  {
+    "Year":1976.0,
+    "GDP per Capita":8592.253537
+  },
+  {
+    "Year":1977.0,
+    "GDP per Capita":9452.576519
+  },
+  {
+    "Year":1978.0,
+    "GDP per Capita":10564.94822
+  },
+  {
+    "Year":1979.0,
+    "GDP per Capita":11674.18187
+  },
+  {
+    "Year":1980.0,
+    "GDP per Capita":12574.79151
+  },
+  {
+    "Year":1981.0,
+    "GDP per Capita":13976.10539
+  },
+  {
+    "Year":1982.0,
+    "GDP per Capita":14433.78773
+  },
+  {
+    "Year":1983.0,
+    "GDP per Capita":15543.89372
+  },
+  {
+    "Year":1984.0,
+    "GDP per Capita":17121.22548
+  },
+  {
+    "Year":1985.0,
+    "GDP per Capita":18236.82773
+  },
+  {
+    "Year":1986.0,
+    "GDP per Capita":19071.22719
+  },
+  {
+    "Year":1987.0,
+    "GDP per Capita":20038.9411
+  },
+  {
+    "Year":1988.0,
+    "GDP per Capita":21417.01193
+  },
+  {
+    "Year":1989.0,
+    "GDP per Capita":22857.15443
+  },
+  {
+    "Year":1990.0,
+    "GDP per Capita":23888.60001
+  },
+  {
+    "Year":1991.0,
+    "GDP per Capita":24342.2589
+  },
+  {
+    "Year":1992.0,
+    "GDP per Capita":25418.99078
+  },
+  {
+    "Year":1993.0,
+    "GDP per Capita":26387.29373
+  },
+  {
+    "Year":1994.0,
+    "GDP per Capita":27694.85342
+  },
+  {
+    "Year":1995.0,
+    "GDP per Capita":28690.8757
+  },
+  {
+    "Year":1996.0,
+    "GDP per Capita":29967.71272
+  },
+  {
+    "Year":1997.0,
+    "GDP per Capita":31459.12997
+  },
+  {
+    "Year":1998.0,
+    "GDP per Capita":32853.67259
+  },
+  {
+    "Year":1999.0,
+    "GDP per Capita":34515.38131
+  },
+  {
+    "Year":2000.0,
+    "GDP per Capita":36329.97026
+  },
+  {
+    "Year":2001.0,
+    "GDP per Capita":37133.6204
+  },
+  {
+    "Year":2002.0,
+    "GDP per Capita":37997.74243
+  },
+  {
+    "Year":2003.0,
+    "GDP per Capita":39490.30239
+  },
+  {
+    "Year":2004.0,
+    "GDP per Capita":41724.6412
+  },
+  {
+    "Year":2005.0,
+    "GDP per Capita":44123.39965
+  },
+  {
+    "Year":2006.0,
+    "GDP per Capita":46301.98765
+  },
+  {
+    "Year":2007.0,
+    "GDP per Capita":48050.22741
+  },
+  {
+    "Year":2008.0,
+    "GDP per Capita":48570.05943
+  },
+  {
+    "Year":2009.0,
+    "GDP per Capita":47194.95009
+  },
+  {
+    "Year":2010.0,
+    "GDP per Capita":48650.66432
+  },
+  {
+    "Year":2011.0,
+    "GDP per Capita":50065.97895
+  },
+  {
+    "Year":2012.0,
+    "GDP per Capita":51784.41147
+  },
+  {
+    "Year":2013.0,
+    "GDP per Capita":53409.75078
+  },
+  {
+    "Year":2014.0,
+    "GDP per Capita":55304.31553
+  },
+  {
+    "Year":2015.0,
+    "GDP per Capita":57040.20821
+  },
+  {
+    "Year":2016.0,
+    "GDP per Capita":58206.61419
+  },
+  {
+    "Year":2017.0,
+    "GDP per Capita":60322.26142
+  },
+  {
+    "Year":2018.0,
+    "GDP per Capita":63201.04585
+  },
+  {
+    "Year":2019.0,
+    "GDP per Capita":65604.68152
+  },
+  {
+    "Year":2020.0,
+    "GDP per Capita":64411.37318
+  },
+  {
+    "Year":2021.0,
+    "GDP per Capita":71318.30736
+  },
+  {
+    "Year":2022.0,
+    "GDP per Capita":78035.17536
+  }
+]

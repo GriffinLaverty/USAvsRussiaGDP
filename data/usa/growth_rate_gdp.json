@@ -1,0 +1,254 @@
+[
+  {
+    "Year":1960.0,
+    "GDP Growth Rate (%)":0.0
+  },
+  {
+    "Year":1961.0,
+    "GDP Growth Rate (%)":3.6812074284
+  },
+  {
+    "Year":1962.0,
+    "GDP Growth Rate (%)":7.4205574379
+  },
+  {
+    "Year":1963.0,
+    "GDP Growth Rate (%)":5.5362749897
+  },
+  {
+    "Year":1964.0,
+    "GDP Growth Rate (%)":7.3911681692
+  },
+  {
+    "Year":1965.0,
+    "GDP Growth Rate (%)":8.4426946514
+  },
+  {
+    "Year":1966.0,
+    "GDP Growth Rate (%)":9.5871991603
+  },
+  {
+    "Year":1967.0,
+    "GDP Growth Rate (%)":5.7300613538
+  },
+  {
+    "Year":1968.0,
+    "GDP Growth Rate (%)":9.3768132612
+  },
+  {
+    "Year":1969.0,
+    "GDP Growth Rate (%)":8.2122015475
+  },
+  {
+    "Year":1970.0,
+    "GDP Growth Rate (%)":5.4907344286
+  },
+  {
+    "Year":1971.0,
+    "GDP Growth Rate (%)":8.5294646526
+  },
+  {
+    "Year":1972.0,
+    "GDP Growth Rate (%)":9.8089882818
+  },
+  {
+    "Year":1973.0,
+    "GDP Growth Rate (%)":11.434982136
+  },
+  {
+    "Year":1974.0,
+    "GDP Growth Rate (%)":8.4095003704
+  },
+  {
+    "Year":1975.0,
+    "GDP Growth Rate (%)":9.0381253952
+  },
+  {
+    "Year":1976.0,
+    "GDP Growth Rate (%)":11.188055818
+  },
+  {
+    "Year":1977.0,
+    "GDP Growth Rate (%)":11.1248353272
+  },
+  {
+    "Year":1978.0,
+    "GDP Growth Rate (%)":12.9584797192
+  },
+  {
+    "Year":1979.0,
+    "GDP Growth Rate (%)":11.7253834944
+  },
+  {
+    "Year":1980.0,
+    "GDP Growth Rate (%)":8.9929205742
+  },
+  {
+    "Year":1981.0,
+    "GDP Growth Rate (%)":12.2370871614
+  },
+  {
+    "Year":1982.0,
+    "GDP Growth Rate (%)":4.272620153
+  },
+  {
+    "Year":1983.0,
+    "GDP Growth Rate (%)":8.6738359487
+  },
+  {
+    "Year":1984.0,
+    "GDP Growth Rate (%)":11.1070704609
+  },
+  {
+    "Year":1985.0,
+    "GDP Growth Rate (%)":7.4704294064
+  },
+  {
+    "Year":1986.0,
+    "GDP Growth Rate (%)":5.5335501262
+  },
+  {
+    "Year":1987.0,
+    "GDP Growth Rate (%)":6.0142622266
+  },
+  {
+    "Year":1988.0,
+    "GDP Growth Rate (%)":7.8528388077
+  },
+  {
+    "Year":1989.0,
+    "GDP Growth Rate (%)":7.7352550386
+  },
+  {
+    "Year":1990.0,
+    "GDP Growth Rate (%)":5.6914664427
+  },
+  {
+    "Year":1991.0,
+    "GDP Growth Rate (%)":3.0596890548
+  },
+  {
+    "Year":1992.0,
+    "GDP Growth Rate (%)":5.8816241436
+  },
+  {
+    "Year":1993.0,
+    "GDP Growth Rate (%)":5.1873471675
+  },
+  {
+    "Year":1994.0,
+    "GDP Growth Rate (%)":6.2502488068
+  },
+  {
+    "Year":1995.0,
+    "GDP Growth Rate (%)":4.8374033578
+  },
+  {
+    "Year":1996.0,
+    "GDP Growth Rate (%)":5.6726078304
+  },
+  {
+    "Year":1997.0,
+    "GDP Growth Rate (%)":6.2443675322
+  },
+  {
+    "Year":1998.0,
+    "GDP Growth Rate (%)":5.6612585946
+  },
+  {
+    "Year":1999.0,
+    "GDP Growth Rate (%)":6.2712841058
+  },
+  {
+    "Year":2000.0,
+    "GDP Growth Rate (%)":6.4349911821
+  },
+  {
+    "Year":2001.0,
+    "GDP Growth Rate (%)":3.2289106619
+  },
+  {
+    "Year":2002.0,
+    "GDP Growth Rate (%)":3.2807812754
+  },
+  {
+    "Year":2003.0,
+    "GDP Growth Rate (%)":4.8252092823
+  },
+  {
+    "Year":2004.0,
+    "GDP Growth Rate (%)":6.640196082
+  },
+  {
+    "Year":2005.0,
+    "GDP Growth Rate (%)":6.7284830034
+  },
+  {
+    "Year":2006.0,
+    "GDP Growth Rate (%)":5.9541345737
+  },
+  {
+    "Year":2007.0,
+    "GDP Growth Rate (%)":4.767303526
+  },
+  {
+    "Year":2008.0,
+    "GDP Growth Rate (%)":2.0425669903
+  },
+  {
+    "Year":2009.0,
+    "GDP Growth Rate (%)":-1.9754713172
+  },
+  {
+    "Year":2010.0,
+    "GDP Growth Rate (%)":3.9430259127
+  },
+  {
+    "Year":2011.0,
+    "GDP Growth Rate (%)":3.6596796865
+  },
+  {
+    "Year":2012.0,
+    "GDP Growth Rate (%)":4.1941783997
+  },
+  {
+    "Year":2013.0,
+    "GDP Growth Rate (%)":3.8556589883
+  },
+  {
+    "Year":2014.0,
+    "GDP Growth Rate (%)":4.3092678658
+  },
+  {
+    "Year":2015.0,
+    "GDP Growth Rate (%)":3.9010385425
+  },
+  {
+    "Year":2016.0,
+    "GDP Growth Rate (%)":2.7871406448
+  },
+  {
+    "Year":2017.0,
+    "GDP Growth Rate (%)":4.2923166298
+  },
+  {
+    "Year":2018.0,
+    "GDP Growth Rate (%)":5.3253320379
+  },
+  {
+    "Year":2019.0,
+    "GDP Growth Rate (%)":4.2770145655
+  },
+  {
+    "Year":2020.0,
+    "GDP Growth Rate (%)":-0.8674190317
+  },
+  {
+    "Year":2021.0,
+    "GDP Growth Rate (%)":10.8968364219
+  },
+  {
+    "Year":2022.0,
+    "GDP Growth Rate (%)":9.8320574755
+  }
+]
