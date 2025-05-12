@@ -33,8 +33,8 @@
       width: 100%;
     }
     canvas {
-      width: 100% !important;
-      height: 400px !important;
+      width: 100%;
+      height: 400px;
     }
   </style>
 </head>
@@ -59,7 +59,7 @@
 
   <script>
     const labels = ['1960', '1970', '1980', '1990', '2000', '2010', '2020'];
-
+    let configPercent;
     Promise.all([
       fetch('data/usa/percentage_gdp.json')
         .then(r => r.json()),
@@ -68,7 +68,7 @@
       fetch('data/world/avg_percentage_gdp.json')
         .then(r => r.json()),
     ]).then(([usaData, rusData, worldData]) => {
-    const configPercent = {
+    configPercent = new Chart(document.getElementById('chartPercent'), {
       type: 'line',
       data: {
         labels: usaData.map(row => row.Year).filter((row, i) => i % 10 === 0),
@@ -108,19 +108,24 @@
             title: { display: true, text: '% of Global GDP' },
             beginAtZero: true
           }
-        }
+        },
+        interaction: {
+          mode: 'nearest',
+          intersect: false
+        },
+        onClick: handleClick
       }
-    };
-    new Chart(document.getElementById('chartPercent'), configPercent);
+    });
   });
 
+  let configPerCapita;
     Promise.all([
       fetch('data/usa/capita_gdp.json')
         .then(r => r.json()),
       fetch('data/rus/capita_gdp.json')
         .then(r => r.json()),
     ]).then(([usaData, rusData]) => {
-    const configPerCapita = {
+    configPerCapita = new Chart(document.getElementById('chartPerCapita'), {
       type: 'bar',
       data: {
         labels: usaData.map(row => row.Year).filter((row, i) => i % 10 === 0),
@@ -156,12 +161,18 @@
             title: { display: true, text: 'USD' },
             beginAtZero: true
           }
-        }
+        },
+        interaction: {
+          mode: 'nearest',
+          axis: 'x',
+          intersect: false
+        },
+        onClick: handleClick
       }
-    };
-    new Chart(document.getElementById('chartPerCapita'), configPerCapita);
+    });
   });
 
+  let configGrowth;
     Promise.all([
       fetch('data/usa/growth_rate_gdp.json')
         .then(r => r.json()),
@@ -170,7 +181,7 @@
       fetch('data/world/avg_growth_rate_gdp.json')
         .then(r => r.json()),
     ]).then(([usaData, rusData, worldData]) => {
-    const configGrowth = {
+    configGrowth = new Chart(document.getElementById('chartGrowth'), {
       type: 'line',
       data: {
         labels: usaData.map(row => row.Year).filter((row, i) => i % 10 === 0),
@@ -210,13 +221,17 @@
             title: { display: true, text: '% Growth' },
             beginAtZero: false
           }
-        }
+        },
+        interaction: {
+          mode: 'nearest',
+          intersect: false
+        },
+        onClick: handleClick
       }
-    };
-    new Chart(document.getElementById('chartGrowth'), configGrowth);
+    });
   });
 
-    const configInflation = {
+    const configInflation = new Chart(document.getElementById('chartInflation'), {
       type: 'line',
       data: {
         labels,
@@ -256,11 +271,38 @@
             title: { display: true, text: '% Inflation' },
             beginAtZero: true
           }
-        }
+        },
+        interaction: {
+          mode: 'nearest',
+          intersect: false
+        },
+        onClick: handleClick
       }
-    };
+    });
 
-    new Chart(document.getElementById('chartInflation'), configInflation);
+    function handleClick(event, elements, chart) {
+      updateColors(elements, configPerCapita, 'backgroundColor');
+      updateColors(elements, configPercent, 'borderColor');
+      updateColors(elements, configGrowth, 'borderColor');
+      updateColors(elements, configInflation, 'borderColor');
+    }
+
+    function updateColors(elements, chartState, colorType) {
+      if (elements[0]) {
+        const dataSetIndex = elements[0].datasetIndex;
+        const currentColor = chartState.data.datasets[dataSetIndex][colorType];
+        const notSelected = chartState.data.datasets.filter((e, i) => i !== dataSetIndex);
+        const isClicked = notSelected.some(e => e[colorType] === 'lightgray');
+        if (!isClicked) {
+          notSelected.map(e => e[colorType] = 'lightgray');
+        } else {
+          chartState.data.datasets[0][colorType] = 'blue';
+          chartState.data.datasets[1][colorType] = 'red';
+          chartState.data.datasets[2][colorType] = 'gray';
+        }
+        chartState.update();
+      }
+    }
   </script>
 </body>
 </html>
