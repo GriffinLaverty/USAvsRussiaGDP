@@ -4,6 +4,9 @@
   <meta charset="UTF-8">
   <title>Russia vs. USA: Economic Visualizations</title>
   <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/hammer.js/2.0.8/hammer.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-zoom@1.2.0"></script>
   <style>
     body {
       font-family: Arial, sans-serif;
@@ -101,7 +104,22 @@
           title: {
             display: true,
             text: '% of Global GDP'
-          }
+          },
+          zoom: {
+            pan: {
+              enabled: true,
+              mode: 'x',
+              modifierKey: 'alt'
+            },
+            zoom: {
+              wheel: {
+                enabled: true,
+                speed: 0.01,
+                modifierKey: 'alt'
+              },
+              mode: 'x'
+            }
+          },
         },
         scales: {
           y: {
@@ -154,7 +172,22 @@
           title: {
             display: true,
             text: 'GDP per Capita (USD)'
-          }
+          },
+          zoom: {
+            pan: {
+              enabled: true,
+              mode: 'x',
+              modifierKey: 'alt'
+            },
+            zoom: {
+              wheel: {
+                enabled: true,
+                speed: 0.01,
+                modifierKey: 'alt'
+              },
+              mode: 'x'
+            }
+          },
         },
         scales: {
           y: {
@@ -214,7 +247,22 @@
           title: {
             display: true,
             text: 'GDP Growth Rate (%)'
-          }
+          },
+          zoom: {
+            pan: {
+              enabled: true,
+              mode: 'x',
+              modifierKey: 'alt'
+            },
+            zoom: {
+              wheel: {
+                enabled: true,
+                speed: 0.01,
+                modifierKey: 'alt'
+              },
+              mode: 'x'
+            }
+          },
         },
         scales: {
           y: {
@@ -273,7 +321,22 @@
           title: {
             display: true,
             text: 'Inflation Rate (%)'
-          }
+          },
+          zoom: {
+            pan: {
+              enabled: true,
+              mode: 'x',
+              modifierKey: 'alt'
+            },
+            zoom: {
+              wheel: {
+                enabled: true,
+                speed: 0.01,
+                modifierKey: 'alt'
+              },
+              mode: 'x'
+            }
+          },
         },
         scales: {
           y: {
