@@ -231,26 +231,35 @@
     });
   });
 
-    const configInflation = new Chart(document.getElementById('chartInflation'), {
+  let configInflation;
+    Promise.all([
+      fetch('data/usa/inflation_rate.json')
+        .then(r => r.json()),
+      fetch('data/rus/inflation_rate.json')
+        .then(r => r.json()),
+      fetch('data/world/avg_inflation_rate.json')
+        .then(r => r.json()),
+    ]).then(([usaData, rusData, worldData]) => {
+    configInflation = new Chart(document.getElementById('chartInflation'), {
       type: 'line',
       data: {
-        labels,
+        labels: usaData.map(row => row.Year).filter((row, i) => i % 10 === 0),
         datasets: [
           {
             label: 'USA',
-            data: [1.7, 2.5, 3.2, 5.4, 2.7, 1.6, 2.3],
+            data: usaData.map(row => row['United States']).filter((row, i) => i % 10 === 0),
             borderColor: 'blue',
             tension: 0.3
           },
           {
             label: 'Russia',
-            data: [3.5, 4.0, 6.5, 10.0, 15.0, 6.3, 4.9],
+            data: rusData.map(row => row['Russian Federation']).filter((row, i) => i % 10 === 0),
             borderColor: 'red',
             tension: 0.3
           },
           {
             label: 'World Avg',
-            data: [2.1, 2.6, 3.1, 4.8, 5.2, 3.5, 3.0],
+            data: worldData.map(row => row['World']).filter((row, i) => i % 10 === 0),
             borderColor: 'gray',
             borderDash: [5, 5],
             tension: 0.3
@@ -279,6 +288,7 @@
         onClick: handleClick
       }
     });
+  });
 
     function handleClick(event, elements, chart) {
       updateColors(elements, configPerCapita, 'backgroundColor');
